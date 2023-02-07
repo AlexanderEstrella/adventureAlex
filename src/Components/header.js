@@ -12,12 +12,11 @@ const Header = () => {
       <div className="nav">
         <ul>
           <li>
-            <FontAwesomeIcon icon={faHouse} />
+            <FontAwesomeIcon icon={faHouse} className="fa-xl" />
           </li>
           <li>
-            <FontAwesomeIcon icon={faPerson} />
+            <FontAwesomeIcon icon={faPerson} className="fa-xl" />
           </li>
-          <li></li>
         </ul>
       </div>
     </div>
