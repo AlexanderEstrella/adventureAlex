@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="primaryHeader">
       <div className="Headertitle">
-        <h1 className="headerticontrol">Adventurser Alex</h1>
+        <h1 className="headerticontrol">Adventurer Alex</h1>
       </div>
       <div className="nav">
         <ul>
