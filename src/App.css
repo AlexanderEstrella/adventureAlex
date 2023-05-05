@@ -23,11 +23,14 @@ body {
 
 }
 .nav {
+  z-index: 100;
+  display: inline-block;
   position: fixed;
     left: 96%;
     bottom: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
+    z-index: 100;
 }
 
 /* home */
@@ -48,6 +51,7 @@ ul  {
   flex-direction: row;
   justify-content: center;
   gap: 20em;
+  
 }
  .costaimg {
   border-radius: 50%;
@@ -63,6 +67,45 @@ ul  {
     font-size: 1.7em;
  }
 
+/* adventure */
 
+.adventurertitle {
+position: relative;
+margin: auto;
+color: var(--text-black);
+font-weight: 500;
+padding-top: 10%;
+padding-bottom: 10%;
 
+}
+.adventuretitle {
+  display: flex;
+  cursor: pointer;
+}
 
+.adventurertitle:hover {
+  font-size: 2.3em;
+}
+.Adventureplaces {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 15px;
+
+}
+.adventures {
+position: relative;
+text-align: center;
+max-width: max-content;
+justify-self: center;
+}
+
+.adventureimgcontrl{
+  position: relative;
+  justify-self: center;
+border-radius: 50%;
+  opacity: 1.4;
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
