@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faPerson } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 const Header = () => {
+  const [count, setCount] = useState(0);
+  const [target, setTarget] = useState(7);
+
+  useEffect(() => {
+    if (count < target) {
+      setTimeout(() => {
+        setCount(count + 1);
+      }, 1000);
+    }
+  }, [count, target]);
+
   return (
     <div className="primaryHeader">
       <div className="Headertitle">

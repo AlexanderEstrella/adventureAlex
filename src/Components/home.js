@@ -6,8 +6,8 @@ const Home = () => {
       <img className="costaimg" src="/images/me.jpg" alt="personimage" />
       <div>
         <p className="aboutme">
-          Hi, this a page dedicated to my adventures during my free time. I most
-          tend to travel the America's with wife and dog.
+          Hi, this a page dedicated to my adventures during my free time. I
+          mostly tend to travel the America's with my wife and dog.
         </p>
       </div>
     </div>

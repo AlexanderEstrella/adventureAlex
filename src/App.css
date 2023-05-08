@@ -109,3 +109,9 @@ border-radius: 50%;
   width: 200px;
   cursor: pointer;
 }
+
+.destinations {
+    position: absolute;
+    right: 10%;
+    font-size: 3em;
+}
