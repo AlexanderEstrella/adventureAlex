@@ -110,8 +110,10 @@ border-radius: 50%;
   cursor: pointer;
 }
 
-.destinations {
-    position: absolute;
-    right: 10%;
-    font-size: 3em;
+.details-container {
+  
+display: flex;
+justify-content: space-around;
+padding-top: 5%;
+text-align: center;
 }
