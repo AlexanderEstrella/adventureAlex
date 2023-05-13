@@ -1,51 +1,41 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faFacebook, faInstagram } from "@fortawesome/fontawesome-svg-core";
+import { SocialIcon } from "react-social-icons";
 
 const Footer = () => (
-  <footer className="page-footer font-small blue pt-4">
-    <div className="container-fluid text-center text-md-left">
-      <div className="row">
-        <div className="col-md-6 mt-md-0 mt-3">
-          <h5 className="text-uppercase">Contact information</h5>
-          <p></p>
-        </div>
-
-        <hr className="clearfix w-100 d-md-none pb-0" />
-
-        <div className="col-md-3 mb-md-0 mb-3">
-          <h5 className="text-uppercase">Links</h5>
-          <ul className="list-unstyled">
-            <li>
-              <a href="#!">
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faFacebook} />
-            </li>
-          </ul>
-        </div>
-
-        <div className="col-md-3 mb-md-0 mb-3">
-          <h5 className="text-uppercase">Links</h5>
-          <ul className="list-unstyled">
-            <li>
-              <FontAwesomeIcon icon={faFacebook} />
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faFacebook} />
-            </li>
-          </ul>
-        </div>
-      </div>
+  <div className="Footer">
+    <div className="fnav">
+      <h5>Nav</h5>
+      <p>
+        <a href="#">Home</a>
+      </p>
+      <p>
+        <a href="#">About</a>
+      </p>
+      <p>
+        <a href="#">Adventures</a>
+      </p>
     </div>
-
-    <div className="footer-copyright text-center py-3">
-      © 2023 Copyright: A.E
+    <div className="fcontact">
+      <h5 className="fcontacttitle">Contact information</h5>
+      <p>T:407-731-6223</p>
+      <p>E:Alexanderestrella23@gmail.com</p>
+      <p>A:Orlando, Florida</p>
     </div>
-  </footer>
+    <div className="fsocials">
+      <h5 className="Socialmediaheader">Social Media</h5>
+      <ul className="fsocialslink">
+        <li>
+          <SocialIcon url="https://linkedin.com/in/alexanderjestrella" />
+        </li>
+        <li>
+          <SocialIcon url="https://www.facebook.com/alexander.estrellamartinez" />
+        </li>
+        <li>
+          <SocialIcon url="https://github.com/AlexanderEstrella" />
+        </li>
+      </ul>
+    </div>
+  </div>
 );
 
 export default Footer;

@@ -1,5 +1,5 @@
 import React from "react";
-const Places = (props) => {
+const Countries = (props) => {
   const { img, title } = props;
   return (
     <div className="adventures">
@@ -9,4 +9,4 @@ const Places = (props) => {
   );
 };
 
-export default Places;
+export default Countries;

@@ -11,8 +11,8 @@ export const DATA = [
   },
   {
     id: 3,
-    img: "/images/Costarica.jpg",
-    title: "Costa Rica",
+    img: "/images/globe.png",
+    title: "Coming Soon",
   },
 ];
 

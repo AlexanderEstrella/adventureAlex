@@ -1,5 +1,5 @@
 import DATA from "../data";
-import Places from "./Countries";
+import Countries from "./countries";
 
 const Adventures = () => {
   return (
@@ -10,7 +10,7 @@ const Adventures = () => {
       <div className="Adventureplaces">
         {DATA.map((Place, index) => {
           const { img, title } = Place;
-          return <Places key={Place.id} {...Place}></Places>;
+          return <Countries key={Place.id} {...Place}></Countries>;
         })}
       </div>
     </div>

@@ -35,15 +35,15 @@ const Frontdetails = () => {
     <div className="details-container">
       <div>
         <span>{continents + "+"}</span>
-        <h2>continents</h2>
+        <h2>Continents</h2>
       </div>
       <div>
         <span>{indigenous + "+"}</span>
-        <h2>indigenous peoples</h2>
+        <h2>Indigenous groups</h2>
       </div>
       <div>
         <span>{countries + "+"}</span>
-        <h2>countries</h2>
+        <h2>Countries</h2>
       </div>
     </div>
   );

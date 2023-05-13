@@ -1,7 +1,10 @@
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
-import { faPerson } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPerson,
+  faHouse,
+  faEarthAmericas,
+} from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 const Header = () => {
@@ -28,6 +31,9 @@ const Header = () => {
           </li>
           <li>
             <FontAwesomeIcon icon={faPerson} className="fa-xl" />
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faEarthAmericas} className="fa-xl" />
           </li>
         </ul>
       </div>
