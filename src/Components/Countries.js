@@ -1,4 +1,5 @@
 import React from "react";
+
 const Countries = (props) => {
   const { img, title } = props;
   return (

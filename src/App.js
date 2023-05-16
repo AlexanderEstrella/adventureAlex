@@ -1,21 +1,16 @@
+import React from "react";
 import "./App.css";
-import Header from "./Components/header";
-import Home from "./Components/home";
-import Adventures from "./Components/adventures";
-import Frontdetails from "./Components/frontdetails";
-import Footer from "./Components/footer";
-import Copyright from "./Components/copyright";
+import Home from "./Pages/home";
+import Navbar from "./Components/Navbar";
+import About from "./Pages/about.";
+import Adventures from "./Pages/adventures";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Header />
+    <>
       <Home />
-      <Frontdetails />
-      <Adventures />
-      <Footer />
-      <Copyright />
-    </div>
+    </>
   );
 }
 

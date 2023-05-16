@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+const Landing = () => {
   return (
     <div className="Home">
       <img className="costaimg" src="/images/me.jpg" alt="personimage" />
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Landing;

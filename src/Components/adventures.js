@@ -1,6 +1,5 @@
 import DATA from "../data";
 import Countries from "./countries";
-
 const Adventures = () => {
   return (
     <div className="Primaryadventure">
