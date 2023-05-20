@@ -5,45 +5,34 @@ import {
   faHouse,
   faEarthAmericas,
 } from "@fortawesome/free-solid-svg-icons";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Home from "../Pages/home";
-import Adventures from "../Pages/adventures";
-import About from "../Pages/about.";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <BrowserRouter>
-      <div className="primaryHeader">
-        <div className="Headertitle">
-          <h1 className="headerticontrol">Adventurer Alex</h1>
-        </div>
-        <div className="nav">
-          <ul>
-            <li>
-              <Link to="/home">
-                <FontAwesomeIcon icon={faHouse} className="fa-xl" />
-              </Link>
-            </li>
-            <li>
-              <Link to="/about">
-                <FontAwesomeIcon icon={faPerson} className="fa-xl" />
-              </Link>
-            </li>
-            <li>
-              <Link to="/adventures">
-                <FontAwesomeIcon icon={faEarthAmericas} className="fa-xl" />
-              </Link>
-            </li>
-          </ul>
-        </div>
+    <div className="primaryHeader">
+      <div className="Headertitle">
+        <h1 className="headerticontrol">Adventurer Alex</h1>
       </div>
-
-      <Routes>
-        <Route exact path="/home" component={Home}></Route>
-        <Route exact path="/about" component={About}></Route>
-        <Route exact path="adventures" component={Adventures}></Route>
-      </Routes>
-    </BrowserRouter>
+      <div className="nav">
+        <ul>
+          <li>
+            <Link classname="navlinks" to="/Home">
+              <FontAwesomeIcon icon={faHouse} className="fa-xl" />
+            </Link>
+          </li>
+          <li>
+            <Link to="/about">
+              <FontAwesomeIcon icon={faPerson} className="fa-xl" />
+            </Link>
+          </li>
+          <li>
+            <Link classname="navlinks" to="/adventures">
+              <FontAwesomeIcon icon={faEarthAmericas} className="fa-xl" />
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 };
 

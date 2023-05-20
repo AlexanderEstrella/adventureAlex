@@ -42,11 +42,16 @@ ul  {
   font-size: 1em;
   list-style-type: none;
 }
- .fa-xl:hover {
-  font-size: 3em;
-  cursor: pointer;
+
+.fa-xl {
   color: green;
+}
+ .fa-xl:hover {
+  cursor: pointer;
+
  }
+
+ 
 .Home {
   display: flex;
   flex-direction: row;
@@ -95,9 +100,9 @@ padding-bottom: 10%;
 }
 .Adventureplaces {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 15px;
+    row-gap: 10px;
   background-color: #fff;
 
 }
@@ -159,3 +164,15 @@ text-align: center;
   
 }
 
+
+/* adventures */
+
+.adventuresheader {
+  position: relative;
+  top: 80px;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto; 
+  border-style: solid;
+  margin-bottom: 100px;
+}

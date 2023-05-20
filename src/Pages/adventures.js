@@ -1,7 +1,7 @@
 import React from "react";
 
 const Adventures = () => {
-  return <div> adventures</div>;
+  return <div className="adventuresheader"> adventures</div>;
 };
 
 export default Adventures;

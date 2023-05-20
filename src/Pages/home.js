@@ -12,7 +12,6 @@ const Home = () => {
       <Landing />
       <Frontdetails />
       <Adventures />
-      <Footer />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import DATA from "../data";
+import DATA from "../dataimg";
 import Countries from "./countries";
 const Adventures = () => {
   return (

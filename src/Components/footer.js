@@ -6,13 +6,13 @@ const Footer = () => (
     <div className="fnav">
       <h5>Nav</h5>
       <p>
-        <a href="#">Home</a>
+        <a href="/home">Home</a>
       </p>
       <p>
-        <a href="#">About</a>
+        <a href="/about">About</a>
       </p>
       <p>
-        <a href="#">Adventures</a>
+        <a href="/adventures">Adventures</a>
       </p>
     </div>
     <div className="fcontact">
