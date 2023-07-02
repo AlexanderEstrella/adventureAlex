@@ -21,12 +21,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/about">
+            <Link to="/">
               <FontAwesomeIcon icon={faPerson} className="fa-xl" />
             </Link>
           </li>
           <li>
-            <Link classname="navlinks" to="/adventures">
+            <Link classname="navlinks" to="/">
               <FontAwesomeIcon icon={faEarthAmericas} className="fa-xl" />
             </Link>
           </li>
