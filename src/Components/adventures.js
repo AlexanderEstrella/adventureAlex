@@ -1,5 +1,5 @@
 import DATA from "../dataimg";
-import Countries from "./countries";
+import Countries from "./Countries";
 const Adventures = () => {
   return (
     <div className="Primaryadventure">
