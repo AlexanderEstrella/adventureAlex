@@ -56,9 +56,13 @@ ul {
 
 
 .Home {
+  margin: 0 auto;
   display: flex;
+  
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  max-width: max-content;
   gap: 20em;
 
 }
@@ -70,12 +74,15 @@ ul {
 }
 
 .aboutme {
-  position: absolute;
-  top: 40%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-  font-size: 1.7em;
+  margin: auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  bottom: 50%;
+  right: 20%;
+ font-size: 1.7em;
 }
+
 
 /* count*/
 .details-container span {
@@ -264,12 +271,11 @@ ul {
   margin: 0 auto;
     max-width: 300px;
     max-height: 600px;
-
-    
       top: inherit;
       left: 40%;
       transform: translate(-50%, -50%);
       font-size: 1.7em;
+      padding-bottom: 20px;
   }
   
     /* count*/
@@ -319,11 +325,10 @@ ul {
     .adventureimgcontrl {
       position: relative;
       justify-self: center;
-      border-radius: 50%;
-      opacity: 1.4;
+      
       max-height: 200px;
       max-width: 200px;
-      cursor: pointer;
+    
     }
   
     .details-container {
@@ -386,7 +391,6 @@ ul {
 
     .fsocialslink li {
       position: relative;
-      
       right: 20px;
     }
   
@@ -394,13 +398,11 @@ ul {
     /* adventures */
   
     .adventuresheader {
-      position: relative;
-      top: 80px;
+   
       max-width: 600px;
       max-height: 600px;
       margin: 0 auto;
-      border-style: solid;
-      margin-bottom: 100px;
+      
     }
   
 }
