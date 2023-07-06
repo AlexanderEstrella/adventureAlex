@@ -1,5 +1,6 @@
 import DATA from "../dataimg";
 import Countries from "./Countries";
+import React from "react";
 const Adventures = () => {
   return (
     <div className="Primaryadventure">
