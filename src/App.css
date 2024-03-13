@@ -30,8 +30,10 @@ a {
   color: var(--text-black);
   font-weight: 00;
 }
-
-.hamburger-icon {
+.Dropdownmenu {
+  display: none;
+}
+.FaBars {
   display: none;
 }
 
@@ -47,14 +49,6 @@ ul, li, link {
 cursor: pointer;
 }
 
-.fa-xl {
-  color: green;
-}
-
-.fa-xl:hover {
-  cursor: pointer;
-
-}
 
 
 .Home {
@@ -205,10 +199,27 @@ cursor: pointer;
     }
   
     /* nav */
-    .primaryHeader {
-      
-  
+    .navLinks {
+      display: none;
     }
+
+    .Dropdownmenu {
+      display: none;
+      background-color: aliceblue;
+      position: absolute;
+   top: 1;
+  right: 0;
+  z-index: 1;
+  cursor: pointer;
+  transition: 3s;
+    }
+
+.FaBars {
+  display:block;
+  font-size: 2em;
+  padding-right: 10px;
+  cursor: pointer;
+}
   
     .Headertitle {
       margin: 0 auto
@@ -220,9 +231,7 @@ cursor: pointer;
   
     }
   
-    .nav {
-     
-    }
+  
   
     /* home */
   
